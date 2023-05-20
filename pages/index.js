@@ -37,7 +37,7 @@ export default function Home() {
                 Kamil <br className="hidden lg:block" /> Muhammad
               </h1>
               <h2 className="robot text-2xl  font-extrabold italic">
-                Web Developer
+                Junior Frontend Developer
               </h2>
               <p>
                 I am a junior Front End Web Developer who wants to learn to
