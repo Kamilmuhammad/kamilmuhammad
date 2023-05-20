@@ -1,3 +1,3 @@
-![cover](https://github.com/rendysyabany/rendysyabany.github.io/blob/master/static/img/gh-rendy-cover.png?raw=true)
+![cover](https://raw.githubusercontent.com/Kamilmuhammad/kamilmuhammad/main/public/profileGithub.png)
 
 ## 👋 Hello, I'm Kamil Muhammad
