@@ -5,7 +5,7 @@ import React from "react";
 function Journey() {
   const journey = [
     {
-      date: "Jan 2023 - Apr 20023",
+      date: "Jan 2023 - Apr 2023",
       company: "Intership",
       roles: ["Junior Front End Developer"],
       description:
