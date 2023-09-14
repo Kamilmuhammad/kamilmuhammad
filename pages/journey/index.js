@@ -6,7 +6,7 @@ function Journey() {
   const journey = [
     {
       date: "Jan 2023 - Apr 2023",
-      company: "Intership",
+      company: "Syabany Labs",
       roles: ["Junior Front End Developer"],
       description:
         "This is my first time joining a technology company called Syabani Labs, We're a Digital Intuitive Laboratory that can help you with our Nature Driven Development. And here I join as a Junior FrontEnd Developer.",

@@ -6,6 +6,13 @@ import React from "react";
 function Project() {
   const projects = [
     {
+      logo: "/hobiholidays.png",
+      name: "Hobi Holidays",
+      link: "hobiholidays.com",
+      href: "https://hobiholidays.com",
+      bg: "bg-red-100",
+    },
+    {
       logo: "/epictetus.png",
       name: "epictetus",
       link: "epictetusblog.vercel.app",

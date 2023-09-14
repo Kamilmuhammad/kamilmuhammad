@@ -6,6 +6,7 @@ import React from "react";
 function Expertise() {
   const expertise = [
     { category: "Dev", bg: "bg-red-100", description: "HTML & CSS" },
+    { category: "Dev", bg: "bg-green-100", description: "Wordpress" },
     {
       category: "Dev",
       bg: "bg-blue-100",
@@ -39,6 +40,7 @@ function Expertise() {
   ];
   const tools = [
     { name: "VS CODE", img: "/tools/vscode.png", category: "Code Editor" },
+    { name: "Wordpress", img: "/wordpress.png", category: "Platform Website" },
     {
       name: "NPM",
       img: "/tools/npm.png",
@@ -83,9 +85,9 @@ function Expertise() {
           </h1>
 
           <div className="flex flex-wrap gap-4 py-9">
-            {expertise.map(({ category, description, bg }) => (
+            {expertise.map(({ category, description, bg }, index) => (
               <div
-                key={category}
+                key={index}
                 className={`py-4 px-6 ${bg} bg-opacity-80 rounded-2xl text-sm`}
               >
                 <span>
