@@ -22,10 +22,6 @@ export default function Home() {
   ];
   return (
     <>
-      <Head>
-        <title>Kamil Muhammad</title>
-        <link rel="icon" href="/logo.png" />
-      </Head>
       <Layout>
         <section>
           <header className="lg:grid-cols-3 lg:grid text-zinc-600 gap-5 ">

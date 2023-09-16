@@ -4,10 +4,14 @@ import Footer from "./footer";
 import Navbar from "./navbar";
 import { motion } from "framer-motion";
 import { NextSeo } from "next-seo";
+import Head from "next/head";
 
 function Layout({ children }) {
   return (
     <>
+      <Head>
+        <link rel="icon" href="/logo.png" />
+      </Head>
       <NextSeo
         title="Kamil Muhammad | Portfolio"
         description="I am a front-end developer dedicated to creating engaging and interactive user experiences through creative and functional web design."
