@@ -53,7 +53,7 @@ export default function Home() {
                   </a>
                 ))}
               </div>
-              <div className="flex gap-10 justify-center md:justify-start flex-col md:flex-row">
+              <div className="flex gap-10 justify-center md:justify-start flex-col md:flex-row items-center">
                 <a
                   href="mailto:kamil120201@gmail.com"
                   className="bg-gradient-to-l from-slate-600 to-slate-900 text-white py-3 px-2 rounded-lg shadow-2xl shadow-slate-800/70 hover:from-slate-900 hover:to-slate-800 "
