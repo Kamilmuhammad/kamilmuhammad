@@ -3,6 +3,14 @@ import Image from "next/image";
 import Layout from "@/components/layout";
 
 export default function Home() {
+  function downloadPDF() {
+    var pdfURL = '/CV_KAMIL_2023.pdf';
+    var a = document.createElement('a');
+    a.href = pdfURL;
+    a.download = 'nama_file.pdf';
+    a.click();
+  }
+
   const socmed = [
     { src: "/telegram.png", href: "https://t.me/Kamilmuhammad12" },
     { src: "/github.png", href: "https://github.com/Kamilmuhammad" },
@@ -59,13 +67,19 @@ export default function Home() {
                   </a>
                 ))}
               </div>
-              <div>
+              <div className="flex gap-10 justify-center md:justify-start flex-col md:flex-row">
                 <a
                   href="mailto:kamil120201@gmail.com"
                   className="bg-gradient-to-l from-slate-600 to-slate-900 text-white py-3 px-2 rounded-lg shadow-2xl shadow-slate-800/70 hover:from-slate-900 hover:to-slate-800 "
                 >
                   Connect with me
                 </a>
+                <button
+                  onClick={() => downloadPDF()}
+                  className="underline underline-offset-4 text-zinc-600 hover:text-red-800 duration-700 hover:blur-[0.5px]"
+                >
+                  See My Resume
+                </button>
               </div>
             </div>
           </header>
