@@ -17,26 +17,25 @@ function Layout({ children }) {
         description="I am a front-end developer dedicated to creating engaging and interactive user experiences through creative and functional web design."
         canonical="https://www.canonical.ie/"
         openGraph={{
-          url: 'https://www.url.ie/a',
-          title: 'Open Graph Title',
-          description: 'Open Graph Description',
+          url: 'https://kamilmuhammad.vercel.app',
+          title: 'Kamil Muhammad | Portfolio',
+          description: 'I am a front-end developer dedicated to creating engaging and interactive user experiences through creative and functional web design.',
           images: [
             {
               url: '/seo.png',
               width: 800,
               height: 600,
               alt: 'Og Image Alt',
-              type: 'image/jpeg',
+              type: 'image/png',
             },
             {
               url: '/seo.png',
               width: 900,
               height: 800,
               alt: 'Og Image Alt Second',
-              type: 'image/jpeg',
+              type: 'image/png',
             },
-            { url: 'https://www.example.ie/og-image-03.jpg' },
-            { url: 'https://www.example.ie/og-image-04.jpg' },
+            { url: '/seo.png' },
           ],
           siteName: 'SiteName',
         }}
