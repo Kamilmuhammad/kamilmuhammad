@@ -24,7 +24,6 @@ export default function Home() {
     <>
       <Head>
         <title>Kamil Muhammad</title>
-        <meta property="og:image" content="/seo.png"></meta>
         <link rel="icon" href="/logo.png" />
       </Head>
       <Layout>
