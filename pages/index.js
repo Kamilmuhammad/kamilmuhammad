@@ -3,14 +3,6 @@ import Image from "next/image";
 import Layout from "@/components/layout";
 
 export default function Home() {
-  function downloadPDF() {
-    var pdfURL = 'https://drive.google.com/file/d/10aGis59xGe3Ba1NjJu3Wai74wFlkloyp/view?usp=drive_link';
-    var a = document.createElement('a');
-    a.href = pdfURL;
-    a.download = 'nama_file.pdf';
-    a.click();
-  }
-
   const socmed = [
     { src: "/telegram.png", href: "https://t.me/Kamilmuhammad12" },
     { src: "/github.png", href: "https://github.com/Kamilmuhammad" },
@@ -68,12 +60,13 @@ export default function Home() {
                 >
                   Connect with me
                 </a>
-                <button
-                  onClick={() => downloadPDF()}
+                <a
+                  href="https://drive.google.com/file/d/1CrtSvNZGmaugm6lJvSzut1FXlCm0-092/view?usp=drive_link"
+                  target="_blank"
                   className="underline underline-offset-4 text-zinc-600 hover:text-red-800 duration-700 hover:blur-[0.5px]"
                 >
                   See My Resume
-                </button>
+                </a>
               </div>
             </div>
           </header>
