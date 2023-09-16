@@ -4,7 +4,7 @@ import Layout from "@/components/layout";
 
 export default function Home() {
   function downloadPDF() {
-    var pdfURL = '/CV_KAMIL_2023.pdf';
+    var pdfURL = 'https://drive.google.com/file/d/10aGis59xGe3Ba1NjJu3Wai74wFlkloyp/view?usp=drive_link';
     var a = document.createElement('a');
     a.href = pdfURL;
     a.download = 'nama_file.pdf';
