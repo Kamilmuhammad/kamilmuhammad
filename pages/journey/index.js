@@ -5,6 +5,13 @@ import React from "react";
 function Journey() {
   const journey = [
     {
+      date: "July 2023 - Present",
+      company: "Freelancer",
+      roles: ["Front End Developer", "Wordpress Developer"],
+      description:
+        "A freelance developer with expertise in front-end and WordPress, delivering stunning web solutions.",
+    },
+    {
       date: "Jan 2023 - Apr 2023",
       company: "Syabany Labs",
       roles: ["Junior Front End Developer"],
@@ -20,7 +27,7 @@ function Journey() {
       </Head>
       <Layout>
         <section className="text-zinc-500">
-          <h1 className="text-2xl mb-20">
+          <h1 className="text-2xl mb-10">
             <span className="font-bold">Precious</span> Journey
           </h1>
           {journey.map(({ date, company, roles, description }, index) => (

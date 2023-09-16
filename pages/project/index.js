@@ -35,7 +35,7 @@ function Project() {
       </Head>
       <Layout>
         <section className="text-zinc-600 min-h-[50vh]">
-          <h1 className="text-2xl mb-20">
+          <h1 className="text-2xl mb-10">
             <span className="font-bold">My Personal</span> project.
           </h1>
           <div className="flex flex-wrap gap-8">

@@ -22,14 +22,14 @@ export default function Home() {
       </Head>
       <Layout>
         <section>
-          <header className="lg:grid-cols-3 lg:grid text-zinc-600">
-            <div className="lg:order-1 ">
+          <header className="lg:grid-cols-3 lg:grid text-zinc-600 gap-5 ">
+            <div className="lg:order-1">
               <Image
                 src={"/fotokamil.jpeg"}
                 width={200}
                 height={200}
                 alt={"header Img"}
-                className="w-8/12 lg:w-full rounded-3xl mx-auto lg:mb-0 mb-10"
+                className="rounded-xl lg:rounded-3xl mx-auto lg:mb-0 mb-10 aspect-[3/4] object-cover w-10/12 md:w-full"
               />
             </div>
             <div className="col-span-2 flex flex-col justify-around lg:gap-0 gap-5 text-center lg:text-left">
@@ -40,8 +40,7 @@ export default function Home() {
                 Junior Frontend Developer
               </h2>
               <p>
-                I am a junior Front End Web Developer who wants to learn to
-                develop web.
+                I am a front-end developer dedicated to creating engaging and interactive user experiences through creative and functional web design.
               </p>
               <div className="flex items-center gap-3 mb-2 justify-center lg:justify-start">
                 {socmed.map((item) => (
@@ -63,7 +62,7 @@ export default function Home() {
               <div>
                 <a
                   href="mailto:kamil120201@gmail.com"
-                  className="bg-gradient-to-l from-slate-600 to-slate-900 text-white py-3 px-2 rounded-lg shadow-2xl shadow-slate-800 hover:from-slate-900 hover:to-slate-800 duration-1000"
+                  className="bg-gradient-to-l from-slate-600 to-slate-900 text-white py-3 px-2 rounded-lg shadow-2xl shadow-slate-800/70 hover:from-slate-900 hover:to-slate-800 "
                 >
                   Connect with me
                 </a>
