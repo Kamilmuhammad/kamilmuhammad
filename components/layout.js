@@ -26,16 +26,15 @@ function Layout({ children }) {
               width: 800,
               height: 600,
               alt: 'Og Image Alt',
-              type: 'image/png',
+              type: 'image/jpeg',
             },
             {
               url: '/seo.png',
               width: 900,
               height: 800,
               alt: 'Og Image Alt Second',
-              type: 'image/png',
+              type: 'image/jpeg',
             },
-            { url: '/seo.png' },
           ],
           siteName: 'SiteName',
         }}
