@@ -15,7 +15,7 @@ function Layout({ children }) {
       <NextSeo
         title="Kamil Muhammad | Portfolio"
         description="I am a front-end developer dedicated to creating engaging and interactive user experiences through creative and functional web design."
-        canonical="https://www.canonical.ie/"
+        canonical="https://kamilmuhammad.vercel.app"
         openGraph={{
           url: 'https://kamilmuhammad.vercel.app',
           title: 'Kamil Muhammad | Portfolio',
