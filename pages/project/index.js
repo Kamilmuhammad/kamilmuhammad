@@ -9,7 +9,7 @@ function Project() {
       logo: "/hobiholidays.png",
       name: "Hobi Holidays",
       link: "hobiholidays.com",
-      href: "https://hobiholidays.com",
+      href: "https://api.hobiholidays.com",
       bg: "bg-red-100",
     },
     {

@@ -71,6 +71,11 @@ function Expertise() {
       img: "/tools/vercel.svg",
       category: "Platform as a service",
     },
+    {
+      name: "SWR",
+      img: "/tools/swr.svg",
+      category: "Platform as a service",
+    },
   ];
   return (
     <>
@@ -104,16 +109,17 @@ function Expertise() {
           <div className="flex flex-wrap gap-4">
             {tools.map(({ name, img, category }, index) => (
               <div
-                className="bg-gray-100 flex md:flex-col items-center md:text-center w-full md:w-40 px-4 md:px-2 py-5 md:justify-between  rounded-3xl md:gap-0 gap-4 "
+                className="bg-gray-100 flex md:flex-col items-center md:text-center w-full md:w-40 px-4 md:px-2 py-5 md:justify-between  rounded-3xl md:gap-1 gap-4"
                 key={index}
-              >
-                <Image
-                  src={img}
-                  alt={name}
-                  width={40}
-                  height={40}
-                  className=""
-                />
+              ><div className="overflow-hidden h-10 flex justify-center items-center">
+                  <Image
+                    src={img}
+                    alt={name}
+                    width={40}
+                    height={40}
+                    className=""
+                  />
+                </div>
                 <div>
                   <h1 className="font-semibold">{name}</h1>
                   <p className="text-xs font-light">{category}</p>
