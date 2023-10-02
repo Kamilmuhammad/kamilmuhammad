@@ -44,13 +44,13 @@ function Layout({ children }) {
           cardType: 'summary_large_image',
         }}
       />
-      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        <Navbar />
-        <Container>
-          <div className="min-h-[67vh] h-full">{children}</div>
-          <Footer />
-        </Container>
-      </motion.div>
+
+      <Navbar />
+      <Container>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="min-h-[67vh] h-full">{children}</motion.div>
+        <Footer />
+      </Container>
+
     </>
   );
 }
