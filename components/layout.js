@@ -47,7 +47,7 @@ function Layout({ children }) {
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <Navbar />
         <Container>
-          <div className="min-h-[57vh]">{children}</div>
+          <div className="min-h-[67vh] h-full">{children}</div>
           <Footer />
         </Container>
       </motion.div>

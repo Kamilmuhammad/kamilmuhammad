@@ -74,8 +74,18 @@ function Expertise() {
     {
       name: "SWR",
       img: "/tools/swr.svg",
-      category: "Platform as a service",
+      category: "Data Fetching Library",
     },
+    {
+      name: "Mantine",
+      img: "/tools/mantine.svg",
+      category: "React Component",
+    },
+    {
+      name: "Zustand",
+      img: "/tools/zustand.webp",
+      category: "State Management",
+    }
   ];
   return (
     <>
@@ -117,7 +127,7 @@ function Expertise() {
                     alt={name}
                     width={40}
                     height={40}
-                    className=""
+                    className="w-10 object-cover rounded-md"
                   />
                 </div>
                 <div>

@@ -11,6 +11,7 @@ function Project() {
       link: "hobiholidays.com",
       href: "https://api.hobiholidays.com",
       bg: "bg-red-100",
+      image: "/project/hobiholidays.png",
     },
     {
       logo: "/epictetus.png",
@@ -18,6 +19,7 @@ function Project() {
       link: "epictetusblog.vercel.app",
       href: "https://epictetusblog.vercel.app",
       bg: "bg-purple-100",
+      image: "/project/epictetus.png",
     },
     {
       logo: "/a+design.png",
@@ -25,6 +27,7 @@ function Project() {
       link: "a-design.vercel.app",
       href: "https://a-design.vercel.app",
       bg: "bg-green-500/20",
+      image: "/project/a+design.png",
     },
   ];
   return (
@@ -38,30 +41,41 @@ function Project() {
           <h1 className="text-2xl mb-10">
             <span className="font-bold">My Personal</span> project.
           </h1>
-          <div className="flex flex-wrap gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-4">
             {projects.map((project) => (
               <div
                 key={project.name}
-                className={`flex ${project.bg} p-6 rounded-3xl w-96`}
+                className={`flex ${project.bg} p-4 rounded-2xl w-full flex-col gap-4`}
+
               >
                 <Image
-                  className="rounded-lg"
-                  src={project.logo}
+                  width={600}
+                  height={600}
                   alt={project.name}
-                  width={80}
-                  height={80}
+                  src={project.image}
+                  className="rounded-md w-full aspect-video object-cover"
                 />
-                <div className="pl-4 flex flex-col justify-around">
-                  <p className="font-semibold text-2xl capitalize">
-                    {project.name}
-                  </p>
-                  <a
-                    target="_blank"
-                    href={project.href}
-                    className="underline-offset-2 underline decoration-1 font-light"
-                  >
-                    {project.link}
-                  </a>
+                <div className="flex">
+
+                  <Image
+                    className="rounded-md"
+                    src={project.logo}
+                    alt={project.name}
+                    width={60}
+                    height={80}
+                  />
+                  <div className="pl-4 flex flex-col justify-around">
+                    <p className="font-semibold text-xl capitalize">
+                      {project.name}
+                    </p>
+                    <a
+                      target="_blank"
+                      href={project.href}
+                      className="underline-offset-2 underline decoration-1 font-light text-md"
+                    >
+                      {project.link}
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
