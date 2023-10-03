@@ -6,6 +6,14 @@ import React from "react";
 function Project() {
   const projects = [
     {
+      logo: "/bahagiaDay.jpg",
+      name: "Bahagia.day",
+      link: "bahagia.day.com",
+      href: "https://bahagia.day",
+      bg: "bg-amber-100",
+      image: "/project/bahagiaDay.jpg",
+    },
+    {
       logo: "/hobiholidays.png",
       name: "Hobi Holidays",
       link: "hobiholidays.com",
@@ -37,7 +45,7 @@ function Project() {
         <link rel="icon" href="/logo.png" />
       </Head>
       <Layout>
-        <section className="text-zinc-600 min-h-[50vh]">
+        <section className="text-zinc-600 min-h-[50vh] bg-">
           <h1 className="text-2xl mb-10">
             <span className="font-bold">My Personal</span> project.
           </h1>
@@ -48,22 +56,28 @@ function Project() {
                 className={`flex ${project.bg} p-4 rounded-2xl w-full flex-col gap-4`}
 
               >
-                <Image
-                  width={600}
-                  height={600}
-                  alt={project.name}
-                  src={project.image}
-                  className="rounded-md w-full aspect-video object-cover"
-                />
+                <a
+                  target="_blank"
+                  href={project.href}
+                  className="underline-offset-2 underline decoration-1 font-light text-md"
+                >
+                  <Image
+                    width={600}
+                    height={600}
+                    alt={project.name}
+                    src={project.image}
+                    className="rounded-md w-full aspect-video object-cover"
+                  />
+                </a>
                 <div className="flex">
 
-                  <Image
+                  {/* <Image
                     className="rounded-md"
                     src={project.logo}
                     alt={project.name}
                     width={60}
                     height={80}
-                  />
+                  /> */}
                   <div className="pl-4 flex flex-col justify-around">
                     <p className="font-semibold text-xl capitalize">
                       {project.name}
