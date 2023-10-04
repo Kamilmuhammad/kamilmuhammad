@@ -53,7 +53,7 @@ function Project() {
             {projects.map((project) => (
               <div
                 key={project.name}
-                className={`flex ${project.bg} p-4 rounded-2xl w-full flex-col gap-4`}
+                className={`flex ${project.bg} p-4 rounded-2xl w-full flex-col gap-2`}
 
               >
                 <a
