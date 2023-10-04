@@ -6,12 +6,12 @@ import React from "react";
 function Project() {
   const projects = [
     {
-      logo: "/kreatorPeradaban.jpg",
-      name: "kreato Peradaban",
+      logo: "/kreator-peradaban.jpg",
+      name: "Kreator Peradaban",
       link: "kreator-peradaban-fe.vercel.app",
       href: "https://kreator-peradaban-fe.vercel.app/person",
-      bg: "bg-green-100",
-      image: "/project/kreatorPeradaban.jpg",
+      bg: "bg-blue-100",
+      image: "/project/kreator-peradaban.jpg",
     },
     {
       logo: "/bahagiaDay.jpg",
