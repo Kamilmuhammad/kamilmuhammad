@@ -6,6 +6,14 @@ import React from "react";
 function Project() {
   const projects = [
     {
+      logo: "/kreator-peradaban.jpg",
+      name: "Kreator Peradaban",
+      link: "kreator-peradaban-fe.vercel.app",
+      href: "https://kreator-peradaban-fe.vercel.app/person",
+      bg: "bg-blue-100",
+      image: "/project/kreator-peradaban.jpg",
+    },
+    {
       logo: "/bahagiaDay.jpg",
       name: "Bahagia.day",
       link: "bahagia.day.com",
