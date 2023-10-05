@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
   const socmed = [
     { src: "/telegram.png", href: "https://t.me/Kamilmuhammad12" },
     { src: "/github.png", href: "https://github.com/Kamilmuhammad" },
@@ -25,7 +26,7 @@ function Footer() {
         ))}
       </div>
       <p className="text-sm text-black/60 md:order-1 md:text-left text-center">
-        Kamil Muhammad &#169; 2023
+        Kamil Muhammad &#169; {currentYear}
       </p>
     </footer>
   );
